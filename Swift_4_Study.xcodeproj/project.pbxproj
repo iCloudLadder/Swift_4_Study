@@ -14,6 +14,8 @@
 		D01F86FB1F99DC2700F14A28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D01F86F91F99DC2700F14A28 /* LaunchScreen.storyboard */; };
 		D01F87061F99DC2700F14A28 /* Swift_4_StudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01F87051F99DC2700F14A28 /* Swift_4_StudyTests.swift */; };
 		D01F87111F99DC2700F14A28 /* Swift_4_StudyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01F87101F99DC2700F14A28 /* Swift_4_StudyUITests.swift */; };
+		D01F87201F99DC9C00F14A28 /* SuperClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01F871F1F99DC9C00F14A28 /* SuperClass.swift */; };
+		D01F87221F99DE0100F14A28 /* SecondWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01F87211F99DE0100F14A28 /* SecondWorld.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		D01F870C1F99DC2700F14A28 /* Swift_4_StudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Swift_4_StudyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D01F87101F99DC2700F14A28 /* Swift_4_StudyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_4_StudyUITests.swift; sourceTree = "<group>"; };
 		D01F87121F99DC2700F14A28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D01F871F1F99DC9C00F14A28 /* SuperClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperClass.swift; sourceTree = "<group>"; };
+		D01F87211F99DE0100F14A28 /* SecondWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondWorld.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 		D01F86EF1F99DC2700F14A28 /* Swift_4_Study */ = {
 			isa = PBXGroup;
 			children = (
+				D01F871E1F99DC3A00F14A28 /* AccessControl */,
 				D01F86F01F99DC2700F14A28 /* AppDelegate.swift */,
 				D01F86F21F99DC2700F14A28 /* ViewController.swift */,
 				D01F86F41F99DC2700F14A28 /* Main.storyboard */,
@@ -123,6 +128,15 @@
 				D01F87121F99DC2700F14A28 /* Info.plist */,
 			);
 			path = Swift_4_StudyUITests;
+			sourceTree = "<group>";
+		};
+		D01F871E1F99DC3A00F14A28 /* AccessControl */ = {
+			isa = PBXGroup;
+			children = (
+				D01F871F1F99DC9C00F14A28 /* SuperClass.swift */,
+				D01F87211F99DE0100F14A28 /* SecondWorld.swift */,
+			);
+			path = AccessControl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +273,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D01F87221F99DE0100F14A28 /* SecondWorld.swift in Sources */,
 				D01F86F31F99DC2700F14A28 /* ViewController.swift in Sources */,
 				D01F86F11F99DC2700F14A28 /* AppDelegate.swift in Sources */,
+				D01F87201F99DC9C00F14A28 /* SuperClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
