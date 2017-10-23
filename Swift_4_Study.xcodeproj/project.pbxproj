@@ -16,6 +16,7 @@
 		D01F87111F99DC2700F14A28 /* Swift_4_StudyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01F87101F99DC2700F14A28 /* Swift_4_StudyUITests.swift */; };
 		D01F87201F99DC9C00F14A28 /* SuperClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01F871F1F99DC9C00F14A28 /* SuperClass.swift */; };
 		D01F87221F99DE0100F14A28 /* SecondWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01F87211F99DE0100F14A28 /* SecondWorld.swift */; };
+		D046ADFD1F9D8C3E0037F511 /* DeferAndQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D046ADFC1F9D8C3E0037F511 /* DeferAndQueue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		D01F87121F99DC2700F14A28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D01F871F1F99DC9C00F14A28 /* SuperClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperClass.swift; sourceTree = "<group>"; };
 		D01F87211F99DE0100F14A28 /* SecondWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondWorld.swift; sourceTree = "<group>"; };
+		D046ADFC1F9D8C3E0037F511 /* DeferAndQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeferAndQueue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				D01F86F71F99DC2700F14A28 /* Assets.xcassets */,
 				D01F86F91F99DC2700F14A28 /* LaunchScreen.storyboard */,
 				D01F86FC1F99DC2700F14A28 /* Info.plist */,
+				D046ADFC1F9D8C3E0037F511 /* DeferAndQueue.swift */,
 			);
 			path = Swift_4_Study;
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 				D01F87221F99DE0100F14A28 /* SecondWorld.swift in Sources */,
 				D01F86F31F99DC2700F14A28 /* ViewController.swift in Sources */,
 				D01F86F11F99DC2700F14A28 /* AppDelegate.swift in Sources */,
+				D046ADFD1F9D8C3E0037F511 /* DeferAndQueue.swift in Sources */,
 				D01F87201F99DC9C00F14A28 /* SuperClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
