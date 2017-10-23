@@ -9,14 +9,31 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-       DeferAndQueue.test()
+        // StringForSwiftFour.test()
         
+        // DeferAndQueue.test()
+        
+        // MatetypeOfType.test()
+        
+        testKeyPath()
     }
+    
+    
+    private func testKeyPath() {
+        let aInstace = DeferAndQueue()
+        
+        printl(aInstace.testKeyPath)
+        
+        let keyPath = \DeferAndQueue.testKeyPath
+        aInstace[keyPath: keyPath] = "new keyPath"
+        printl(aInstace[keyPath: keyPath])
+    }
+   
     
     
     

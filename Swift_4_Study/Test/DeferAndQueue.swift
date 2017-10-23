@@ -10,6 +10,8 @@ import Foundation
 
 final class DeferAndQueue {
     
+    var testKeyPath = "testKeyPath"
+    
     static func test() {
         // defer
         testDefer()
