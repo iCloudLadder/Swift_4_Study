@@ -27,11 +27,16 @@ class ViewController: UIViewController {
     private func testKeyPath() {
         let aInstace = DeferAndQueue()
         
-        printl(aInstace.testKeyPath)
+        print(aInstace.testKeyPath)
         
         let keyPath = \DeferAndQueue.testKeyPath
         aInstace[keyPath: keyPath] = "new keyPath"
-        printl(aInstace[keyPath: keyPath])
+        print(aInstace[keyPath: keyPath])
+        
+        
+        let keyPath1 = #keyPath(DeferAndQueue.testKeyPath)
+        aInstace.setValue("set #keyPath", forKey: keyPath1)
+        print(aInstace.value(forKey: keyPath1) ?? "empty ")
     }
    
     

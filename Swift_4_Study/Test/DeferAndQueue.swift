@@ -8,9 +8,9 @@
 
 import Foundation
 
-final class DeferAndQueue {
+final class DeferAndQueue: NSObject {
     
-    var testKeyPath = "testKeyPath"
+    @objc var testKeyPath = "testKeyPath"
     
     static func test() {
         // defer
