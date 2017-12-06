@@ -14,9 +14,21 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        #if DEBUG
-            print("Debug")
-        #endif
+//        #if DEBUG
+//            print("Debug")
+//        #else
+//            print("Release")
+//        #endif
+        
+        /*
+        let str = "SS"
+        guard str == "s" else {
+            print("guard")
+            return
+        }
+        */
+        print("------")
+        
         
         // StringForSwiftFour.test()
         
@@ -24,7 +36,14 @@ class ViewController: UIViewController {
         
         // MatetypeOfType.test()
         
-        testKeyPath()
+        // testKeyPath()
+        
+    }
+    
+    
+    @IBAction func actionEvent(_ sender: UIButton) {
+        print("Button Tag = \(sender.tag)")
+        testAlert(sender)
     }
     
     
@@ -44,7 +63,20 @@ class ViewController: UIViewController {
     }
    
     
-    
+    private func testAlert(_ sourceView: UIView) {
+//        VSAlertViewController.presentAlert("Title", message: "Content Of Message", buttonTitles: nil) {
+//            (alertController, buttonTitle, buttonIndex) in
+//            print("Click title = \(buttonTitle), index = \(buttonIndex)")
+//        }
+        
+//        VSAlertViewController.presentAlert(self, title: "Title", message: "Content Of Message", buttonTitles: ["s"]) { (alertController, buttonTitle, buttonIndex) in
+//            print("Click title = \(buttonTitle), index = \(buttonIndex)")
+//        }
+        
+        VSAlertViewController.presentActionSheet(sourceView, title: "Title", message: "Content Of Message", buttonTitles: ["1", "2"]) { (alertController, buttonTitle, buttonIndex) in
+            print("Click title = \(buttonTitle), index = \(buttonIndex)")
+        }
+    }
     
     
     

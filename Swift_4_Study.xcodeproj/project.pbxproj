@@ -20,6 +20,7 @@
 		D046ADFF1F9D8F3D0037F511 /* StringForSwiftFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = D046ADFE1F9D8F3D0037F511 /* StringForSwiftFour.swift */; };
 		D046AE021F9D94CF0037F511 /* MateTypeOfType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D046AE011F9D94CF0037F511 /* MateTypeOfType.swift */; };
 		D046AE041F9D9A210037F511 /* DebugManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D046AE031F9D9A210037F511 /* DebugManager.swift */; };
+		D0DEDCCE1FD54ED200240728 /* VSAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DEDCCD1FD54ED200240728 /* VSAlertViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		D046ADFE1F9D8F3D0037F511 /* StringForSwiftFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringForSwiftFour.swift; sourceTree = "<group>"; };
 		D046AE011F9D94CF0037F511 /* MateTypeOfType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MateTypeOfType.swift; sourceTree = "<group>"; };
 		D046AE031F9D9A210037F511 /* DebugManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugManager.swift; sourceTree = "<group>"; };
+		D0DEDCCD1FD54ED200240728 /* VSAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VSAlertViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 		D01F86EF1F99DC2700F14A28 /* Swift_4_Study */ = {
 			isa = PBXGroup;
 			children = (
+				D0DEDCC81FD549EE00240728 /* MyClass */,
 				D046AE001F9D94B40037F511 /* Test */,
 				D01F871E1F99DC3A00F14A28 /* AccessControl */,
 				D01F86F01F99DC2700F14A28 /* AppDelegate.swift */,
@@ -157,6 +160,14 @@
 				D046AE031F9D9A210037F511 /* DebugManager.swift */,
 			);
 			path = Test;
+			sourceTree = "<group>";
+		};
+		D0DEDCC81FD549EE00240728 /* MyClass */ = {
+			isa = PBXGroup;
+			children = (
+				D0DEDCCD1FD54ED200240728 /* VSAlertViewController.swift */,
+			);
+			path = MyClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,6 +308,7 @@
 				D01F87221F99DE0100F14A28 /* SecondWorld.swift in Sources */,
 				D01F86F31F99DC2700F14A28 /* ViewController.swift in Sources */,
 				D046ADFF1F9D8F3D0037F511 /* StringForSwiftFour.swift in Sources */,
+				D0DEDCCE1FD54ED200240728 /* VSAlertViewController.swift in Sources */,
 				D01F86F11F99DC2700F14A28 /* AppDelegate.swift in Sources */,
 				D046ADFD1F9D8C3E0037F511 /* DeferAndQueue.swift in Sources */,
 				D01F87201F99DC9C00F14A28 /* SuperClass.swift in Sources */,
