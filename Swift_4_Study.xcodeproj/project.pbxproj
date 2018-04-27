@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34CE92102091B8B2006F9546 /* ArrayStudy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CE920F2091B8B2006F9546 /* ArrayStudy.swift */; };
 		D01F86F11F99DC2700F14A28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01F86F01F99DC2700F14A28 /* AppDelegate.swift */; };
 		D01F86F31F99DC2700F14A28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01F86F21F99DC2700F14A28 /* ViewController.swift */; };
 		D01F86F61F99DC2700F14A28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D01F86F41F99DC2700F14A28 /* Main.storyboard */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		34CE920F2091B8B2006F9546 /* ArrayStudy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayStudy.swift; sourceTree = "<group>"; };
 		D01F86ED1F99DC2700F14A28 /* Swift_4_Study.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift_4_Study.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D01F86F01F99DC2700F14A28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D01F86F21F99DC2700F14A28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -158,6 +160,7 @@
 				D046ADFE1F9D8F3D0037F511 /* StringForSwiftFour.swift */,
 				D046AE011F9D94CF0037F511 /* MateTypeOfType.swift */,
 				D046AE031F9D9A210037F511 /* DebugManager.swift */,
+				34CE920F2091B8B2006F9546 /* ArrayStudy.swift */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -307,6 +310,7 @@
 				D046AE021F9D94CF0037F511 /* MateTypeOfType.swift in Sources */,
 				D01F87221F99DE0100F14A28 /* SecondWorld.swift in Sources */,
 				D01F86F31F99DC2700F14A28 /* ViewController.swift in Sources */,
+				34CE92102091B8B2006F9546 /* ArrayStudy.swift in Sources */,
 				D046ADFF1F9D8F3D0037F511 /* StringForSwiftFour.swift in Sources */,
 				D0DEDCCE1FD54ED200240728 /* VSAlertViewController.swift in Sources */,
 				D01F86F11F99DC2700F14A28 /* AppDelegate.swift in Sources */,
