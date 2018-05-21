@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		343856B9209AA3A6004E12B8 /* StudySwift41.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343856B8209AA3A6004E12B8 /* StudySwift41.swift */; };
 		34CE92102091B8B2006F9546 /* ArrayStudy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CE920F2091B8B2006F9546 /* ArrayStudy.swift */; };
 		D01F86F11F99DC2700F14A28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01F86F01F99DC2700F14A28 /* AppDelegate.swift */; };
 		D01F86F31F99DC2700F14A28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01F86F21F99DC2700F14A28 /* ViewController.swift */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		343856B8209AA3A6004E12B8 /* StudySwift41.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudySwift41.swift; sourceTree = "<group>"; };
 		34CE920F2091B8B2006F9546 /* ArrayStudy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayStudy.swift; sourceTree = "<group>"; };
 		D01F86ED1F99DC2700F14A28 /* Swift_4_Study.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift_4_Study.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D01F86F01F99DC2700F14A28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -156,6 +158,7 @@
 		D046AE001F9D94B40037F511 /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				343856B8209AA3A6004E12B8 /* StudySwift41.swift */,
 				D046ADFC1F9D8C3E0037F511 /* DeferAndQueue.swift */,
 				D046ADFE1F9D8F3D0037F511 /* StringForSwiftFour.swift */,
 				D046AE011F9D94CF0037F511 /* MateTypeOfType.swift */,
@@ -316,6 +319,7 @@
 				D01F86F11F99DC2700F14A28 /* AppDelegate.swift in Sources */,
 				D046ADFD1F9D8C3E0037F511 /* DeferAndQueue.swift in Sources */,
 				D01F87201F99DC9C00F14A28 /* SuperClass.swift in Sources */,
+				343856B9209AA3A6004E12B8 /* StudySwift41.swift in Sources */,
 				D046AE041F9D9A210037F511 /* DebugManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

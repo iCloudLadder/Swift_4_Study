@@ -38,11 +38,11 @@ class ViewController: UIViewController {
         
         // testKeyPath()
         
-        ArrayStudy.testFlatMap()
-        ArrayStudy.testStatic();
+        // ArrayStudy.testFlatMap()
+        // ArrayStudy.testReduce();
+        ArrayStudy.testVaule();
         // let arrS = ArrayStudy()
         
-        let s: String = "s"
         
     }
     
