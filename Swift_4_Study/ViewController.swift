@@ -21,6 +21,7 @@ class ViewController: UIViewController {
 //        #endif
         
         /*
+         
         let str = "SS"
         guard str == "s" else {
             print("guard")
